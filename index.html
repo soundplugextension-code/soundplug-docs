@@ -183,7 +183,7 @@
 
     .step p {
       font-size: 0.8rem;
-      color: var(--muted);
+      color: #aaaaaa;
       margin: 0;
       line-height: 1.5;
     }
@@ -194,6 +194,7 @@
     }
 
     .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-item:last-child { border-bottom: none; }
 
     .faq-q {
       width: 100%;
@@ -253,7 +254,8 @@
       align-items: start;
     }
 
-    .changelog-entry:first-child { border-top: 1px solid var(--border); }
+    .changelog-entry:first-child { border-top: none; }
+    .changelog-entry:last-child { border-bottom: none; }
 
     .changelog-version {
       font-family: 'DM Mono', monospace;
